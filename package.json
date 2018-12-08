@@ -1,0 +1,22 @@
+{
+  "name": "my-react-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "wolf-builder dev",
+    "build": "wolf-builder build prod dsdf",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "wolf-builder": "0.0.8"
+  },
+  "dependencies": {
+    "antd": "^3.11.0",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "typescript": "^3.2.2"
+  }
+}
