@@ -11,7 +11,19 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "wolf-builder": "0.0.8"
+    "wolf-builder": "0.0.19"
+  },
+  "babel": {
+    "plugins": [
+      [
+        "import",
+        {
+          "libraryName": "antd",
+          "libraryDirectory": "es",
+          "style": "css"
+        }
+      ]
+    ]
   },
   "dependencies": {
     "antd": "^3.11.0",

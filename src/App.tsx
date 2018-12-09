@@ -1,5 +1,6 @@
 import * as React from 'react'
 import { Button } from 'antd'
+import './assets/index.css'
 
 const img = require('./test.jpeg')
 
