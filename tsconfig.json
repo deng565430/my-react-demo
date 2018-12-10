@@ -1,11 +1,15 @@
 {
   "compilerOptions": {
+    "sourceMap": true,
     "moduleResolution": "node",
-    "sourceMap": false,
-    "lib": ["es2017"],
-    "jsx": "react",
     "target": "es2015",
-    "types": ["node"]
+    "lib": ["es6", "dom", "es2017"],
+    "jsx": "react",
+    "types": ["webpack-env"],
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "baseUrl": "."
   },
-  "exclude": ["node_modules"]
+  "exclude": ["__tests__", "node_modules"],
+  "include": ["src/**/*", "typings/*"]
 }

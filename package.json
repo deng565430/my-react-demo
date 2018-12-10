@@ -5,25 +5,15 @@
   "main": "index.js",
   "scripts": {
     "start": "wolf-builder dev",
-    "build": "wolf-builder build prod dsdf",
+    "build": "wolf-builder build prod",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "wolf-builder": "0.0.19"
-  },
-  "babel": {
-    "plugins": [
-      [
-        "import",
-        {
-          "libraryName": "antd",
-          "libraryDirectory": "es",
-          "style": "css"
-        }
-      ]
-    ]
+    "@types/react": "^16.7.13",
+    "@types/webpack-env": "^1.13.6",
+    "wolf-builder": "0.0.26"
   },
   "dependencies": {
     "antd": "^3.11.0",
